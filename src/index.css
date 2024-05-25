@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-white;
+    @apply h-full;
+    @apply text-base;
+  }
+  body {
+    @apply h-full;
+  }
+
+  div#root {
+    @apply h-full;
+  }
+}
