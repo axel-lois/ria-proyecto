@@ -2,12 +2,9 @@ import { RouteObject, useRoutes } from "react-router-dom";
 import Root from "@/components/root/root";
 import Home from "@/components/home/home";
 import EntityDetail from "@/components/detail/detail";
+import { APP_ROUTE_PATHS } from "@/constants/constants";
 
-const APP_ROUTE_PATHS = {
-  INDEX: "/",
-  HOME: "/home",
-  ENTITY_DETAIL: "home/:entityName",
-};
+
 
 const routes: RouteObject[] = [
   {

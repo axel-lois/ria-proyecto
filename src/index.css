@@ -14,5 +14,6 @@
 
   div#root {
     @apply h-full;
+    @apply bg-gray-800;
   }
 }
